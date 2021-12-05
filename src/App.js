@@ -14,7 +14,6 @@ const  App = () => {
 
     .then((res)=>{
       setDados(res.data)
-      console.log(res)
     })
     
     .catch((err)=>{
